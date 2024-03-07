@@ -6,7 +6,9 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>First Website Project</title>
     <link rel="stylesheet" href="app.css">
+    <link rel="stylesheet" href="node_modules/aos/dist/aos.css">
     <script src="node_modules/bootstrap/dist/js/bootstrap.js"></script>
+    <script src="node_modules/aos/dist/aos.js"></script>
 </head>
 
 <body>
@@ -79,7 +81,7 @@
 
     <div class="container my-5">
         <div class="row">
-            <div class="col-4 mb-5">
+            <div class="col-4 mb-5" data-aos="fade-up">
                 <div class="card">
                     <img src="/images/bird.webp" class="card-img-top" alt="...">
                     <div class="card-body">
@@ -92,7 +94,7 @@
                     </div>
                 </div>
             </div>
-            <div class="col-4 mb-5">
+            <div class="col-4 mb-5" data-aos="fade-up">
                 <div class="card">
                     <img src="/images/bird.webp" class="card-img-top" alt="...">
                     <div class="card-body">
@@ -105,7 +107,7 @@
                     </div>
                 </div>
             </div>
-            <div class="col-4 mb-5">
+            <div class="col-4 mb-5" data-aos="fade-up">
                 <div class="card">
                     <img src="/images/bird.webp" class="card-img-top" alt="...">
                     <div class="card-body">
@@ -118,7 +120,7 @@
                     </div>
                 </div>
             </div>
-            <div class="col-4 mb-5">
+            <div class="col-4 mb-5" data-aos="fade-up">
                 <div class="card">
                     <img src="/images/bird.webp" class="card-img-top" alt="...">
                     <div class="card-body">
@@ -131,7 +133,7 @@
                     </div>
                 </div>
             </div>
-            <div class="col-4 mb-5">
+            <div class="col-4 mb-5" data-aos="fade-up">
                 <div class="card">
                     <img src="/images/bird.webp" class="card-img-top" alt="...">
                     <div class="card-body">
@@ -144,7 +146,7 @@
                     </div>
                 </div>
             </div>
-            <div class="col-4 mb-5">
+            <div class="col-4 mb-5" data-aos="fade-up">
                 <div class="card">
                     <img src="/images/bird.webp" class="card-img-top" alt="...">
                     <div class="card-body">
@@ -160,7 +162,7 @@
         </div>
     </div>
 
-    <div class="accordion container mb-5" id="accordionExample">
+    <div class="accordion container mb-5" id="accordionExample" data-aos="fade-up">
         <div class="accordion-item">
             <h2 class="accordion-header">
                 <button class="accordion-button" type="button" data-bs-toggle="collapse" data-bs-target="#collapseOne"
@@ -221,6 +223,9 @@
         Copyright Test Website
     </div>
 
+    <script>
+        AOS.init();
+    </script>
 
 </body>
 
